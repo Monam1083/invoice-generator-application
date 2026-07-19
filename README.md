@@ -1,11 +1,9 @@
 # Invoice Generator App
 
-A Flutter app for creating, managing, and exporting professional invoices —
+A Flutter app for creating, managing, and exporting professional invoices 
 built with Material Design, local (offline) storage, and on-device PDF
 generation, sharing, and printing.
-
 ## Project Overview
-
 Invoice Generator lets a small business create invoices with full business
 and customer details, itemised products/services with quantity, unit price
 and optional per-item discount, automatic subtotal/tax/grand-total
@@ -92,29 +90,6 @@ lib/
   routes/         # Named route table
   core/           # Theme, colors, strings, sizing constants
 ```
-
-## Setup Instructions
-
-1. **Install Flutter** (stable channel) — see https://docs.flutter.dev/get-started/install
-2. Clone this repository:
-   ```bash
-   git clone <this-repo-url>
-   cd invoice_generator
-   ```
-3. Get dependencies:
-   ```bash
-   flutter pub get
-   ```
-4. Run on a connected device/emulator:
-   ```bash
-   flutter run
-   ```
-5. Build a release APK:
-   ```bash
-   flutter build apk --release
-   ```
-   The APK will be at `build/app/outputs/flutter-apk/app-release.apk`.
-
 ## Notes
 
 - All data is stored locally on-device (Hive); there is no backend/server.
